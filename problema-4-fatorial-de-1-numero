@@ -1,0 +1,29 @@
+def calcular_fatorial(numero):
+    fatorial = 1
+    for i in range(2, numero + 1):
+        fatorial *= i
+    return fatorial
+
+primeira_execucao = True
+
+while True:
+    # Recebe um número do usuário
+    numero = int(input("Digite um número para calcular o fatorial: "))
+    
+    # Calcula o fatorial
+    resultado = calcular_fatorial(numero)
+    
+    # Exibe o resultado
+    print("\nO fatorial de", numero, "é :", resultado)
+    
+    # Após a primeira execução, informa como finalizar o programa
+    if primeira_execucao:
+        print("\n\nPara finalizar o programa, digite -1 na próxima vez.")
+        primeira_execucao = False
+    
+    # Recebe o próximo número do usuário
+    numero = int(input("Digite outro número para calcular o fatorial (ou digite -1 para sair): "))
+    
+    if numero == -1:
+        print("Encerrando o programa.")
+        break
