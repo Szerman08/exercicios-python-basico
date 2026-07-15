@@ -1,2 +1,0 @@
-nome = input("Qual se nome ? ")
-print("\nOlá, " + nome + " Seja bem vindo!")
