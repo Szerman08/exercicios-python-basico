@@ -1,0 +1,12 @@
+Problema 3 - Exibir o maior dos dois numeros.
+
+
+n1 = input("Digite o 1° numero :")
+n2 = input("Digite o 2° numero :")
+if n1 > n2:
+    print("O numero maior é :", n1)
+elif n2 > n1:
+    print("O numero maior é :", n2)
+else:
+    print("Os numeros digitados são iguais")
+    
