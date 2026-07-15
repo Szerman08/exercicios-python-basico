@@ -1,9 +1,0 @@
-Nome = input("Digite seu nome:")
-
-print("\nOlá," + Nome + " Seja bem vindo! \n")
-Idade = input ("\nQual é sua Idade? \n")
-
-Documento = input ("\nDigite seu documento:\n")
-
-
-print("\nÓtimo, como posso ajudar ?")
