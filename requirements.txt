@@ -1,0 +1,2 @@
+# Exercícios básicos de Python
+# Sem dependências externas — usa apenas a biblioteca padrão do Python
