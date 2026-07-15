@@ -1,6 +1,0 @@
-Nome = "Caio"
-Sobrenome = "Szerman"
-Idade = "21"
-
-print(Nome,Sobrenome,Idade)
-
